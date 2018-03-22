@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RenewOffering&k=1:
+  /?Action=RenewOffering:
     get:
       summary: ' Renew Offering '
       description: |-
