@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDevicePoolCompatibility&k=1:
+  /?Action=GetDevicePoolCompatibility:
     get:
       summary: ' Get Device Pool Compatibility '
       description: Gets information about compatibility with a device pool
