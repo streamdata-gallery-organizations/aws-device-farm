@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTests&k=1:
+  /?Action=ListTests:
     get:
       summary: ' List Tests '
       description: Gets information about tests
