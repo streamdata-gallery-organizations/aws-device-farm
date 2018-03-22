@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListOfferingTransactions&k=1:
+  /?Action=ListOfferingTransactions:
     get:
       summary: ' List Offering Transactions '
       description: |-
