@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteUpload&k=1:
+  /?Action=DeleteUpload:
     get:
       summary: ' Delete Upload '
       description: Deletes an upload given the upload ARN
