@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PurchaseOffering&k=1:
+  /?Action=PurchaseOffering:
     get:
       summary: ' Purchase Offering '
       description: Immediately purchases offerings for an AWS account
