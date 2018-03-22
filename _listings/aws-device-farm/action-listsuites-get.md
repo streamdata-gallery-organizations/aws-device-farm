@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSuites&k=1:
+  /?Action=ListSuites:
     get:
       summary: ' List Suites '
       description: Gets information about suites
