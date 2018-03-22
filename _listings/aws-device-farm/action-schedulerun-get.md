@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ScheduleRun&k=1:
+  /?Action=ScheduleRun:
     get:
       summary: ' Schedule Run '
       description: Schedules a run
