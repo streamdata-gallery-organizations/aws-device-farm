@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateUpload&k=1:
+  /?Action=CreateUpload:
     get:
       summary: ' Create Upload '
       description: Uploads an app or test scripts
