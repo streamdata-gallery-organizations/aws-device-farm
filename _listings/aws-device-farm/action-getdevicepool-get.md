@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDevicePool&k=1:
+  /?Action=GetDevicePool:
     get:
       summary: ' Get Device Pool '
       description: Gets information about a device pool
