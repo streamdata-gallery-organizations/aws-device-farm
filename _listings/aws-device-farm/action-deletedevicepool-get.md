@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDevicePool&k=1:
+  /?Action=DeleteDevicePool:
     get:
       summary: ' Delete Device Pool '
       description: Deletes a device pool given the pool ARN
