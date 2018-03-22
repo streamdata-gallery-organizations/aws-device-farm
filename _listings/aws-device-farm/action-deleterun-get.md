@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteRun&k=1:
+  /?Action=DeleteRun:
     get:
       summary: ' Delete Run '
       description: Deletes the run, given the run ARN
