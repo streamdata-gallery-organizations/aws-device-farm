@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListUniqueProblems&k=1:
+  /?Action=ListUniqueProblems:
     get:
       summary: ' List Unique Problems '
       description: Gets information about unique problems
