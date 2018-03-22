@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListUploads&k=1:
+  /?Action=ListUploads:
     get:
       summary: ' List Uploads '
       description: Gets information about uploads, given an AWS Device Farm project
