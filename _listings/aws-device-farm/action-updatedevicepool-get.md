@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDevicePool&k=1:
+  /?Action=UpdateDevicePool:
     get:
       summary: ' Update Device Pool '
       description: Modifies the name, description, and rules in a device pool given
