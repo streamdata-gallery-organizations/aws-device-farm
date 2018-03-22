@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopRun&k=1:
+  /?Action=StopRun:
     get:
       summary: ' Stop Run '
       description: Initiates a stop request for the current test run
