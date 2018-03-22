@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListOfferings&k=1:
+  /?Action=ListOfferings:
     get:
       summary: ' List Offerings '
       description: Returns a list of products or offerings that the user can manage
