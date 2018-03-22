@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListRuns&k=1:
+  /?Action=ListRuns:
     get:
       summary: ' List Runs '
       description: Gets information about runs, given an AWS Device Farm project ARN
