@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetOfferingStatus&k=1:
+  /?Action=GetOfferingStatus:
     get:
       summary: ' Get Offering Status '
       description: Gets the current status and future status of all offerings purchased
