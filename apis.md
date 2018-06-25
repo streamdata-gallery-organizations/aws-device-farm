@@ -5,7 +5,7 @@ description: This is a repository of aws device farm APIs, self-contained as a G
   operations.
 image: http://template.streamdata.gallery/assets/aws-device-farm.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://aws-device-farm.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
