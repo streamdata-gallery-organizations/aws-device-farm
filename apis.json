@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS Device Farm",
+	"description": "This is a repository of aws device farm APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-device-farm.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-device-farm.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "AWS Device Farm",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-device-farm/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS Device Farm",
+	"include": [
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-device-farm/master/_listings/aws-device-farm/apis.yaml"
+		}
+	]
+}
